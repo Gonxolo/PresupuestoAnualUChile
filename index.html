@@ -365,6 +365,10 @@
       },
     };
 
-    Plotly.react("myDiv", data, layout);
+    var config = {
+      responsive: true,
+    }
+
+    Plotly.react("myDiv", data, layout, config);
   </script>
 </html>
