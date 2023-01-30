@@ -3,3 +3,19 @@ body{
     width: auto !important;  /* Firefox will set width as auto */
     width:1000px;            /* As IE6 ignores !important it will set width as 1000px; */
 }
+
+footer {
+    margin-top: 2rem;
+    color: #fff;
+    font-size: small;
+}
+
+footer hr {
+    margin: 0.8rem auto;
+    border-color: lightgray;
+    width: 20%;
+}
+
+footer a {
+    color: rgb(135,184,204);
+}
